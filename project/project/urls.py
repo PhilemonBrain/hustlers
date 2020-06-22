@@ -19,9 +19,9 @@ from rest_framework import routers
 from coding_arena import views
 
 router = routers.DefaultRouter()
-router.register(r'gamer', views.GamerViewSet)
-router.register(r'invite', views.InviteViewSet)
-router.register(r'challenge', views.ChallengeViewSet)
+router.register(r'v1/gamer', views.GamerViewSet)
+router.register(r'v1/invite', views.InviteViewSet)
+router.register(r'v1/challenge', views.ChallengeViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
