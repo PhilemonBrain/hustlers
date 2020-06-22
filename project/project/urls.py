@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url
+from rest_framework_swagger.views import get_swagger_view
+
+doc_view = get_swagger_view(title='Project documentation')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url('doc/', doc_view)
 ]
