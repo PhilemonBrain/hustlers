@@ -1,0 +1,131 @@
+.btn {
+    text-decoration: none;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+
+.container .row .image .come{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 50px;
+    width: 86px;
+}
+.container .row .image .come:hover{
+    background: rgba(143, 168, 192, 0.52);
+}
+.container .row .image .btn-accept{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 70px;
+    width: 108px;
+}
+.container .row .image .btn-accept:hover{
+    background: green;
+    color: white;
+}
+.container .row .image .btn-decline{  
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 70px;
+    width: 108px;
+}
+.container .row .image .btn-decline:hover{
+    background-color: red;
+}
+.container .row .image{
+    
+    margin-top: 20px;
+}
+.container .row .challenge{
+    background: rgba(19, 85, 146, 0.4);
+    border-radius: 30px;
+    width: 540px;
+    height: 53px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+.container .row .invite{
+    background: #779AF6;
+    border: 1px solid #1D1DCF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 148px;
+    margin-top: 20px;
+}
+
+.container .row .emoji{
+    margin-top: 20px;
+}
+.container .row .view{
+    text-decoration: none;
+    border-bottom: 1px solid #33E1ED;
+    margin-left: 850px;
+    margin-top: 30px;
+}
+.container .row .lang{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #09A69D;
+}
+h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-left: 20px;
+
+}
+.container .row .search{
+    border: 1px solid #453E3E;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+.container .row .searchicon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+@media only screen and (max-width: 700px){
+    .container .row .right{
+        width: 30vw !important;
+    }
+    .container .row .right .btn-accept{
+        width: 70px;
+        height: 40px;
+        margin-left: 70px;
+    }
+    .container .row .right .btn-decline{
+        width: 75px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .container .row .challenge{
+        width: 200px;
+        font-size: 15px;
+    }
+    .container .row .james{
+        width: 37px;
+        height: 35px;
+    }
+    .container .row .view{
+       margin-left:  200px;
+        
+    }
+}
