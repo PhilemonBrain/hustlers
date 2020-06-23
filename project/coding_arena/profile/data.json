@@ -1,0 +1,33 @@
+[
+    {
+        "model": "coding_arena.gamer",
+        "pk" : 1,
+        "fields":{
+            "user_id":"123e4567-e89b-12d3-a456-426614174000",
+            "name":"Micheal",
+            "prog_lang": "Python",
+            "username": "Jammie",
+            "email": "ujames41@gmail.com"
+        }
+    },
+    {
+        "model": "coding_arena.invite",
+        "pk" : 1,
+        "fields":{
+            "challengeID": 1,
+            "recipient": 1,
+            "dateTimeCreated": "2020-10-01 15:00" ,
+            "status": "A"
+        }
+    },
+    {
+        "model": "coding_arena.challenge",
+        "pk" : 1,
+        "fields":{
+            "title": "Mr",
+            "description":"This is a goof game",
+            "createdBy": 1, 
+            "dateTimeCreated": "2020-10-01 15:00"
+        }
+    }
+]
