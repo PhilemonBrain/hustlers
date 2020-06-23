@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,700;1,800&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+.inputName{
+    padding-top: 50px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 54px;
+}
+
+.email {
+    padding-top: 50px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 54px;
+}
+.password {
+    padding-top: 50px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 54px;
+}
+.input {
+    border: 1px solid #0f1644;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #0f1644;
+    text-decoration: none;
+}
+.login {
+    padding: 30px 00px;
+}
+h1 {
+    padding-top: 30px;
+}
+h2 {
+    padding-top: 90px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 96px;
+}
+.title {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 54px;
+}
+.login .btn{
+    background: #779AF6;
+    border: 1px solid #1D1DCF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 148px;
+    margin-top: 20px;
+    margin-left: 340px;
+}
+.container .login .forgot{
+    margin-left: 350px;
+}
+
+@media only screen and (max-width: 700px){
+    .sign-in h2 {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .input {
+        padding: 5px;
+    }
+    .sign-in .title{
+        font-size: 17px;
+        padding-left: 30px;
+    }
+    .login .submit {
+        margin-left: 0px;
+        /* text-align: left; */
+        margin-right: 70px;
+    }
+    .container .login{
+        margin-right: 900px;
+    }
+    .email {
+        font-size: 20px;
+    }
+    .password {
+        font-size: 20px;
+    }
+    .container .login .forgot{
+        margin-left: 10px;
+    }
+}
