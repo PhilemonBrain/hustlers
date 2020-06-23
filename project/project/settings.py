@@ -66,7 +66,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'coding_arena',
+    # 'coding_arena',
     'rest_framework',
     'coding_arena.apps.CodingArenaConfig',
 ]
